@@ -5,7 +5,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="causate",
-    version="0.1.0",  # Increment the version for the new release
+    version="0.1.1",  # Increment the version for the new release
     description="Causate is a Python package designed to operationalize causal model discovery and inference. It enables seamless discovery, visualization, and deployment of causal relationships into actionable workflows.",
     long_description="Causate is a Python package designed to operationalize causal model discovery and inference. It enables seamless discovery, visualization, and deployment of causal relationships into actionable workflows.",  # Ensure you have a README.md file
     long_description_content_type="text/markdown",

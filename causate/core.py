@@ -1,8 +1,8 @@
 import mlflow
 import mlflow 
 from castle.algorithms import PC  
-import utils
-import model_scripts as scripts
+from . import utils
+from . import model_scripts as scripts
 
 
 import pandas as pd

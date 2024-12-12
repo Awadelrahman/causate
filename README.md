@@ -13,8 +13,8 @@ As a user working with causal analysis, I want to seamlessly discover, visualize
 - Automated Logging for CausalOps: I can log and version models, results, and visualizations to MLflow, allowing me to track my analysis steps, manage model versions, and streamline the deployment process.
 - Challenges of Causal Models Solved: I benefit from dynamic signature management, flexible output formatting, and tools that address the unique challenges of causal models, making it possible to integrate causal analysis in a production environment without additional overhead.
 
-## Causate: Beyond MLflow and gCastle
-
+<!--## Causate: Beyond MLflow and gCastle
+ This is a comment that won't be visible 
 While **MLflow** focuses on experiment tracking, model management, and deployment, and **gCastle** provides causal discovery algorithms, **Causate** unifies these tools into a dedicated toolkit for **CausalOps**. Causate enables end-to-end causal discovery, addressing unique challenges like schema management, standardized output formatting, visualization, and deployment readiness that neither MLflow nor gCastle can achieve alone.
 
 ---
@@ -32,3 +32,4 @@ While **MLflow** focuses on experiment tracking, model management, and deploymen
 | **Error Handling and Usability**    | ✖️ Limited feedback for causal models | Partial: Technical configurations only | ✅ User-friendly configuration, error handling, and feedback for causal discovery setup |
 
 ---
+-->

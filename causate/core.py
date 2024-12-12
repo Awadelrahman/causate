@@ -365,22 +365,7 @@ class CausalOpsEngine:
         return renamed_data
     
 
-    def load_causal_model1(self, logged_model: str) -> None:
-        """
-        Load a causal model from the specified MLflow location.
 
-        :param logged_model: The MLflow model URI to load the causal model from.
-        :raises ValueError: If the method is called in 'create' mode.
-        """
-        logging.info("Attempting to load causal model from '%s'.", logged_model)
-
-        if self.mode == "infer":
-            # Load the model using MLflow
-            self.loaded_model = mlflow.pyfunc.load_model(logged_model)
-            logging.info("Causal model loaded successfully in 'infer' mode.")
-        elif self.mode == "create":
-            logging.error("Invalid mode: 'load_causal_model' is only available in 'infer' mode.")
-            raise ValueError("'load_causal_model' only available in 'infer' mode.")
         
     def infer_causal_model(self, data: pd.DataFrame) -> pd.DataFrame:
         """

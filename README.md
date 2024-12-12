@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="causal-factory-logo.png" width="200">
+    <img src="causate-logo.png" width="200">
 </div>
 
 # Core User Story for Causate - Under Developement

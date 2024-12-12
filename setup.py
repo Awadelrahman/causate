@@ -1,5 +1,8 @@
 from setuptools import setup, find_packages
 
+with open("requirements.txt") as f:
+    requirements = f.read().splitlines()
+
 setup(
     name="causate",
     version="0.1.0",  # Increment the version for the new release
@@ -16,13 +19,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
-    install_requires=[
-    "mlflow",  
-    "pandas",
-    "gcastle",  
-    "torch",
-    "numpy",  
-    "networkx",  
-    "matplotlib", 
-],
+    install_requires=requirements,
 )
